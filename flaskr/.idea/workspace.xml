@@ -32,11 +32,14 @@
       <file leaf-file-name="hello.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83732057">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.890511">
+              <caret line="111" column="173" selection-start-line="111" selection-start-column="173" selection-end-line="111" selection-end-column="173" />
               <folding>
-                <element signature="e#0#100#0" expanded="true" />
-                <marker date="1475298055000" expanded="true" signature="1515:1566" placeholder="Select Uniqu... " />
+                <element signature="e#94#203#0" expanded="true" />
+                <marker date="1476327892000" expanded="true" signature="2310:2361" placeholder="Select Uniqu... " />
+                <marker date="1476327892000" expanded="true" signature="2678:2821" placeholder="Select Uniqu... " />
+                <marker date="1476327892000" expanded="true" signature="2678:2823" placeholder="Select Uniqu... " />
+                <marker date="1476327892000" expanded="true" signature="2678:2829" placeholder="Select Uniqu... " />
               </folding>
             </state>
           </provider>
@@ -114,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
@@ -358,7 +361,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -371,11 +374,21 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -384,19 +397,39 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#100#0" expanded="true" />
-            <marker date="1475298055000" expanded="true" signature="1515:1566" placeholder="Select Uniqu... " />
+            <element signature="e#94#203#0" expanded="true" />
+            <marker date="1476327892000" expanded="true" signature="2310:2361" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2821" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2823" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2829" placeholder="Select Uniqu... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83732057">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#100#0" expanded="true" />
-            <marker date="1475298055000" expanded="true" signature="1515:1566" placeholder="Select Uniqu... " />
+            <element signature="e#94#203#0" expanded="true" />
+            <marker date="1476327892000" expanded="true" signature="2310:2361" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2821" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2823" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2829" placeholder="Select Uniqu... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.890511">
+          <caret line="111" column="173" selection-start-line="111" selection-start-column="173" selection-end-line="111" selection-end-column="173" />
+          <folding>
+            <element signature="e#94#203#0" expanded="true" />
+            <marker date="1476327892000" expanded="true" signature="2310:2361" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2821" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2823" placeholder="Select Uniqu... " />
+            <marker date="1476327892000" expanded="true" signature="2678:2829" placeholder="Select Uniqu... " />
           </folding>
         </state>
       </provider>
