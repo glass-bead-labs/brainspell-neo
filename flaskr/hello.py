@@ -36,8 +36,7 @@ app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 myConnection = pymysql.connect(host = hostname, user = username, passwd = password, db = database)
 
 
-host = 'brainspell-postgres.camtj8eoxvnf.us-west-2.rds.amazonaws.com'
-awsauth = AWS4Auth('AKIAI3X2XHIGRI3QGY4Q', 'eAbExEw0MTS/2HuC+5vyvWJc3aY+xoNMj9rv35hm', 'us-west-2', 'es')
+
 
 es = Elasticsearch(
     hosts = [{'host': host, 'port': 5432}],

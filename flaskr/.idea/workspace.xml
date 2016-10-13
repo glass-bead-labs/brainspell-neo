@@ -32,14 +32,14 @@
       <file leaf-file-name="hello.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.890511">
-              <caret line="111" column="173" selection-start-line="111" selection-start-column="173" selection-end-line="111" selection-end-column="173" />
+            <state vertical-scroll-proportion="0.25547445">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#94#203#0" expanded="true" />
-                <marker date="1476327892000" expanded="true" signature="2310:2361" placeholder="Select Uniqu... " />
-                <marker date="1476327892000" expanded="true" signature="2678:2821" placeholder="Select Uniqu... " />
-                <marker date="1476327892000" expanded="true" signature="2678:2823" placeholder="Select Uniqu... " />
-                <marker date="1476327892000" expanded="true" signature="2678:2829" placeholder="Select Uniqu... " />
+                <marker date="1476328310000" expanded="true" signature="2135:2186" placeholder="Select Uniqu... " />
+                <marker date="1476328310000" expanded="true" signature="2503:2646" placeholder="Select Uniqu... " />
+                <marker date="1476328310000" expanded="true" signature="2503:2648" placeholder="Select Uniqu... " />
+                <marker date="1476328310000" expanded="true" signature="2503:2654" placeholder="Select Uniqu... " />
               </folding>
             </state>
           </provider>
@@ -398,10 +398,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#94#203#0" expanded="true" />
-            <marker date="1476327892000" expanded="true" signature="2310:2361" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2821" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2823" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2829" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2135:2186" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2646" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2648" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2654" placeholder="Select Uniqu... " />
           </folding>
         </state>
       </provider>
@@ -412,24 +412,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#94#203#0" expanded="true" />
-            <marker date="1476327892000" expanded="true" signature="2310:2361" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2821" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2823" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2829" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2135:2186" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2646" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2648" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2654" placeholder="Select Uniqu... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.890511">
-          <caret line="111" column="173" selection-start-line="111" selection-start-column="173" selection-end-line="111" selection-end-column="173" />
+        <state vertical-scroll-proportion="0.25547445">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#94#203#0" expanded="true" />
-            <marker date="1476327892000" expanded="true" signature="2310:2361" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2821" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2823" placeholder="Select Uniqu... " />
-            <marker date="1476327892000" expanded="true" signature="2678:2829" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2135:2186" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2646" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2648" placeholder="Select Uniqu... " />
+            <marker date="1476328310000" expanded="true" signature="2503:2654" placeholder="Select Uniqu... " />
           </folding>
         </state>
       </provider>
