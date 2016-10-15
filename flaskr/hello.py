@@ -14,6 +14,8 @@ from elasticsearch import Elasticsearch
 from elasticsearch import Elasticsearch, RequestsHttpConnection
 from requests_aws4auth import AWS4Auth
 import certifi
+import json
+
 
 
 
@@ -35,11 +37,13 @@ app.config.update(dict(
 app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 myConnection = pymysql.connect(host = hostname, user = username, passwd = password, db = database)
 
-
+host = 'brainspell-rds.camtj8eoxvnf.us-west-2.rds.amazonaws.com'
+awsauth = AWS4Auth('AKIAIJOIXQHOP7INRDDQ', 'Koty84b86xPH4M4n8V0cHbmazQGiuVOQvmsK/eXy', 'us-west-2a', 'es')
+#awsauth = AWS4Auth('brainspell_admin', 'brainspell', 'us-west-2a', 'es')
 
 
 es = Elasticsearch(
-    hosts = [{'host': host, 'port': 5432}],
+    hosts = [{'host': host, 'port': 3306}],
     http_auth = awsauth,
     use_ssl = True,
     verify_certs = True,
@@ -53,7 +57,7 @@ def database():
 
 
 # DATABASE CONNECTION;
-def connect_db():  # Connecting with sqlite3 for now (Use pymysql)?
+def connect_db():  # Connecting with pymysql to local for now --> switch to elastic from amazon
     rv = pymysql.connect(host = hostname, user = username, passwd = password, db = database)
     return rv
 
@@ -82,7 +86,6 @@ def initdb_command():
 
 
 
-
 @app.route('/')
 def show_main():
     return 'Nothing'
@@ -94,10 +97,6 @@ def show_main():
 
 
 
-
-
-
-
 @app.route('/go')
 def search():
     return render_template("text.html")
@@ -105,10 +104,12 @@ def search():
 
 @app.route('/data', methods=['GET', 'POST'])
 def post():
+    database_dict = {}
     text = request.form['text']
     cur = myConnection.cursor()
-    search_term = '% ' + text + '%'
-    search_string = "Select UniqueID,TIMESTAMP,Title,Authors,Abstract,Reference, PMID, DOI, NeuroSynthID, Experiments, Metadata from Articles WHERE Experiments LIKE '% hi%'"
+    cur.execute("ALTER TABLE Articles ADD FULLTEXT(Title)")
+    search_string = "Select UniqueID,TIMESTAMP,Title,Authors,Abstract,Reference, PMID, DOI, NeuroSynthID, Experiments, Metadata" \
+                    " from Articles WHERE match (Title) against ('%{0}%' IN NATURAL LANGUAGE MODE)".format(text)
     cur.execute(search_string)
     for UniqueID,TIMESTAMP,Title,Authors,Abstract,Reference,PMID,DOI,NeuroSynthID,Experiments,Metadata in cur.fetchall():
         database_dict = {}
@@ -123,7 +124,7 @@ def post():
         database_dict["NeuroSynthID"] = NeuroSynthID
         database_dict["Experiments"] = Experiments
         database_dict["Metadata"] = Metadata
-    return jsonify(database_dict)
+    return json.dumps(database_dict,  sort_keys = True, indent = 4, separators = (',', ': '))
 
 
 
