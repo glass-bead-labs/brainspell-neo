@@ -38,8 +38,7 @@ app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 myConnection = pymysql.connect(host = hostname, user = username, passwd = password, db = database)
 
 host = 'brainspell-rds.camtj8eoxvnf.us-west-2.rds.amazonaws.com'
-awsauth = AWS4Auth('AKIAIJOIXQHOP7INRDDQ', 'Koty84b86xPH4M4n8V0cHbmazQGiuVOQvmsK/eXy', 'us-west-2a', 'es')
-#awsauth = AWS4Auth('brainspell_admin', 'brainspell', 'us-west-2a', 'es')
+
 
 
 es = Elasticsearch(
