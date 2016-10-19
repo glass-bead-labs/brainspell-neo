@@ -38,7 +38,8 @@ app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 myConnection = pymysql.connect(host = hostname, user = username, passwd = password, db = database)
 
 host = 'brainspell-rds.camtj8eoxvnf.us-west-2.rds.amazonaws.com'
-
+awsauth = AWS4Auth('AKIAJP5SGWZFTUIDIVQQ', '7cbziYaYSFfc30Xu+5SXoBnRcixhMKAOezSoX9jh', 'us-west-2a', 'es')
+#awsauth = AWS4Auth('brainspell_admin', 'brainspell', 'us-west-2a', 'es')
 
 
 es = Elasticsearch(
@@ -94,7 +95,10 @@ def show_main():
     # for item in db.fetchall():
     #     return item
 
-
+#Type in the name of any old html file and it will link;
+@app.route('/about') #This links to all the old html code 
+def about():
+    return render_template('/html/article.html')
 
 @app.route('/go')
 def search():
